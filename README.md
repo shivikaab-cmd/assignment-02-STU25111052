@@ -1,18 +1,20 @@
 
+ Overall Data Flow Architecture
+
 ```mermaid
 graph TD
-A[Raw Data Sources] --> B[Data Cleaning & Transformation]
-B --> C[RDBMS - Normalized Tables]
-C --> D[Data Warehouse - Star Schema]
-D --> E[Analytical Queries / BI]
+A[Raw Data Sources] --> B[Data Cleaning and Transformation]
+B --> C[RDBMS Normalized Tables]
+C --> D[Data Warehouse Star Schema]
+D --> E[Analytical Queries BI]
 
-A --> F[NoSQL - MongoDB]
-A --> G[Data Lake - DuckDB Queries]
+A --> F[NoSQL MongoDB]
+A --> G[Data Lake DuckDB]
 
-E --> H[Insights & Reports]
+E --> H[Insights and Reports]
 
-A --> I[Vector DB - Embeddings]
-I --> J[Semantic Search / Similarity]
+A --> I[Vector DB Embeddings]
+I --> J[Semantic Search Similarity]
 
 Part 1 — RDBMS (Normalization & SQL)
 Working with relational databases helped me understand the importance of structured data design. Initially, storing everything in one table seemed simple, but it quickly became clear how it leads to redundancy and inconsistencies.
