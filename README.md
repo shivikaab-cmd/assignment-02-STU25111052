@@ -1,14 +1,31 @@
-Raw Data Sources
-↓
-Data Cleaning & Transformation
-↓
-RDBMS (Normalized Tables)
-↓
-Data Warehouse (Star Schema)
-↓
-Analytical Queries / BI
-↓
-Insights & Reports
++----------------------+
+| Raw Data Sources |
++----------+-----------+
+|
+v
++------------------------------+
+| Data Cleaning & Transformation |
++---------------+--------------+
+|
+v
++------------------------------+
+| RDBMS (Normalized Tables) |
++---------------+--------------+
+|
+v
++------------------------------+
+| Data Warehouse (Star Schema) |
++---------------+--------------+
+|
+v
++------------------------------+
+| Analytical Queries / BI |
++---------------+--------------+
+|
+v
++------------------------------+
+| Insights & Reports |
++------------------------------+
 
 Part 1 - RDBMS (Normalization and SQL)
 Working with relational databases helped me understand the importance of structured data design. Initially, storing everything in one table seemed simple, but it quickly became clear how it leads to redundancy and inconsistencies.
