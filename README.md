@@ -16,6 +16,8 @@ E --> H[Insights and Reports]
 A --> I[Vector DB Embeddings]
 I --> J[Semantic Search Similarity]
 
+'''
+
 Part 1 - RDBMS (Normalization and SQL)
 Working with relational databases helped me understand the importance of structured data design. Initially, storing everything in one table seemed simple, but it quickly became clear how it leads to redundancy and inconsistencies.
 By applying normalization (up to 3NF), I learned how to break down data into logical entities such as customers, orders, and products. This not only reduced duplication but also ensured data integrity.
