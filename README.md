@@ -1,3 +1,5 @@
+
+```mermaid
 graph TD
 A[Raw Data Sources] --> B[Data Cleaning & Transformation]
 B --> C[RDBMS - Normalized Tables]
