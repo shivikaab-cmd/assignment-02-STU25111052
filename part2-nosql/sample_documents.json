@@ -1,0 +1,110 @@
+[
+  {
+    "_id": { "$oid": "64a1f2c3e4b05d3a2c8f1001" },
+    "category": "Electronics",
+    "product_name": "Sony WH-1000XM5 Wireless Headphones",
+    "brand": "Sony",
+    "sku": "SNY-WH1000XM5-BLK",
+    "price": 29990,
+    "currency": "INR",
+    "discount_percent": 0,
+    "stock": {
+      "available": 142,
+      "warehouse_location": "Mumbai-WH1",
+      "last_restocked": "2024-02-14"
+    },
+    "specifications": {
+      "driver_size_mm": 30,
+      "frequency_response": "4Hz–40,000Hz",
+      "battery_life_hours": 30,
+      "noise_cancellation": true,
+      "connectivity": ["Bluetooth 5.2", "3.5mm jack", "USB-C"],
+      "voltage": "5V DC",
+      "warranty_years": 1,
+      "weight_grams": 250,
+      "colors_available": ["Black", "Silver", "Midnight Blue"]
+    },
+    "ratings": {
+      "average": 4.7,
+      "total_reviews": 3821
+    },
+    "tags": ["headphones", "noise-cancelling", "wireless", "premium-audio"],
+    "created_at": "2023-09-01T10:00:00Z",
+    "updated_at": "2024-03-10T08:30:00Z"
+  },
+  {
+    "_id": { "$oid": "64a1f2c3e4b05d3a2c8f1002" },
+    "category": "Clothing",
+    "product_name": "Levi's 511 Slim Fit Jeans",
+    "brand": "Levi's",
+    "sku": "LVS-511-32-32-IND",
+    "price": 2999,
+    "currency": "INR",
+    "discount_percent": 0,
+    "stock": {
+      "available": 530,
+      "warehouse_location": "Delhi-WH2",
+      "last_restocked": "2024-03-01"
+    },
+    "specifications": {
+      "material": "99% Cotton, 1% Elastane",
+      "fit": "Slim",
+      "rise": "Mid-Rise",
+      "closure": "Zip Fly",
+      "care_instructions": ["Machine wash cold", "Tumble dry low", "Do not bleach"],
+      "sizes_available": ["28x30", "30x30", "32x32", "34x32", "36x34"],
+      "colors_available": ["Indigo", "Stone Wash", "Black", "Dark Navy"]
+    },
+    "ratings": {
+      "average": 4.4,
+      "total_reviews": 6102
+    },
+    "tags": ["jeans", "slim-fit", "denim", "casual-wear"],
+    "created_at": "2023-06-15T09:00:00Z",
+    "updated_at": "2024-02-28T14:15:00Z"
+  },
+  {
+    "_id": { "$oid": "64a1f2c3e4b05d3a2c8f1003" },
+    "category": "Groceries",
+    "product_name": "India Gate Classic Basmati Rice 5kg",
+    "brand": "India Gate",
+    "sku": "IG-BSMTI-5KG-CLX",
+    "price": 649,
+    "currency": "INR",
+    "discount_percent": 0,
+    "stock": {
+      "available": 2100,
+      "warehouse_location": "Bengaluru-WH3",
+      "last_restocked": "2024-03-15"
+    },
+    "specifications": {
+      "weight_kg": 5,
+      "grain_length": "Extra Long",
+      "aged_years": 2,
+      "organic": false,
+      "packaging": "Vacuum Sealed Bag",
+      "expiry_date": "2024-09-15",
+      "shelf_life_months": 18,
+      "allergens": ["None"],
+      "nutritional_info_per_100g": {
+        "calories_kcal": 357,
+        "carbohydrates_g": 78.2,
+        "protein_g": 7.5,
+        "fat_g": 0.6,
+        "fiber_g": 1.3
+      }
+    },
+    "ratings": {
+      "average": 4.6,
+      "total_reviews": 14350
+    },
+    "delivery": {
+      "express_available": true,
+      "estimated_days": 1,
+      "free_delivery_above": 499
+    },
+    "tags": ["rice", "basmati", "staple", "long-grain", "aged-rice"],
+    "created_at": "2023-01-20T07:00:00Z",
+    "updated_at": "2024-03-16T11:00:00Z"
+  }
+]
